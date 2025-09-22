@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TechShop | Tecnología, Joyería y Ropa</title>
+<meta name="description" content="TechShop: tienda de tecnología, joyería y moda. Catálogo por categorías, testimonios y contacto.">
+<meta name="keywords" content="TechShop, electrónica, joyería, ropa, tienda, catálogo">
+<meta property="og:title" content="TechShop" />
+<meta property="og:description" content="Explora electrónica, joyería y moda en TechShop." />
+<meta property="og:type" content="website" />
+<link rel="icon" href="logo.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="styles.css" />
+<script defer src="app.js"></script>
+
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="logo.svg" alt="" /><span>TechShop</span></a>
+    <nav>
+      <div class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Nosotros</a>
+        <a href="products.html">Productos</a>
+      </div>
+    </nav>
+    <a class="cta" href="products.html">Ver catálogo</a>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h1>Nosotros</h1>
+    <p class="lead">Nuestra historia y misión</p>
+    <div class="row">
+      <div class="card">
+        <p>TechShop nació con la misión de acercar la mejor tecnología, joyería y moda a precios justos. Creemos en un servicio honesto, garantía real y una experiencia de compra memorable.</p>
+        <p>Desde 2024, atendemos a miles de clientes en todo el país con envíos rápidos y un soporte que realmente responde.</p>
+      </div>
+      <div class="card">
+        <img src="https://caracoltv.brightspotcdn.com/dims4/default/2833cf2/2147483647/strip/false/crop/1280x852+0+0/resize/1200x799!/format/webp/quality/90/?url=https:%2F%2Fcaracol-brightspot.s3-us-west-2.amazonaws.com%2Fassets%2Fbluradio%2Fsupertec_0.jpeg" alt="Nuestra tienda física">
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container row">
+    <div>
+      <strong>TechShop</strong>
+      <p class="lead">Tecnología, joyería y moda al mejor precio.</p>
+      <div class="social">
+        <a href="https://facebook.com" aria-label="Facebook">Facebook</a>
+        <a href="https://instagram.com" aria-label="Instagram">Instagram</a>
+        <a href="https://x.com" aria-label="X/Twitter">Twitter</a>
+      </div>
+    </div>
+    <div>
+      <p>© <span id="year"></span> TechShop. Todos los derechos reservados.</p>
+      <p><a href="mailto:marcobonilla2005@gmail.com">marcobonilla2005@gmail.com</a></p>
+    </div>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</footer>
+
+</body>
+</html>
